@@ -44,3 +44,5 @@
     - no SEO, browser Render of JS, no routing 
 - Framework
     - Next JS, Gatsby, Remix
+
+// always open first "package.json"
