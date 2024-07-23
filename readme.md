@@ -66,3 +66,22 @@
 
 
 - because we have only one page that is "index.html" -> 'Single Page Application'
+
+## Virtual DOM
+- JS ek apna poora track rakhta hai
+- ek virtual DOM tree banata hai
+- aur usmai cheezon ko update karta hai
+
+## React Fibre
+- React's core algorithm 
+- used to update the virtual DOM tree
+- key Features of this algo
+    - ability to pause, abort, or reuse work as new updates come in 
+    - the ability to assign priority to different types of updates
+    - new concurrency primitives 
+
+## props
+- props component ko banata hai reusable
+
+## React interview Ques.
+- 
