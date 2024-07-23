@@ -45,4 +45,24 @@
 - Framework
     - Next JS, Gatsby, Remix
 
-// always open first "package.json"
+
+# Key points to Remember
+- always open first "package.json"
+- if you are making a component and HTML return ho rha hai -> use ".jsx" extension
+- and if only javascript ka code hai koi HTML return nhi ho rha hai -> use ".js" extension
+- always use capital letter function
+
+
+- ek script(main.jsx/index.js) inject karani hai "index.html" mai
+- script run ho rhi hai using
+    - react & react-dom
+- inke andar se hi method mil rhe hai
+- jaise browser ek DOM banata hai usi tarah se react ek parallel DOM (VIRTUAL DOM) bana ke rakhta hai under
+    - create-react-app -> index.js
+    - vite -> src/main.jsx
+- and then us DOM ko render karta hai 
+- ek element pe jo present hota hai index.html mai
+- to update the main page(index.html)
+
+
+- because we have only one page that is "index.html" -> 'Single Page Application'
