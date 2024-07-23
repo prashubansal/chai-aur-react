@@ -5,13 +5,17 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(15)
+  // hooks
+  const [counter, setCounter] = useState(15)
 
   // let counter = 15
 
   const addValue = function(){
     if(counter < 20){
-      setCounter(counter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
     }
   }
 
