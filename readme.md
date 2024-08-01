@@ -81,7 +81,8 @@
     - new concurrency primitives 
 
 ## props
-- props component ko banata hai reusable
+- every component function has access of props(object)
+- by default it is empty
+- jo bhi value aap component mai daal do ge vo object mai insert ho jayegi.
 
-## React interview Ques.
-- 
+ 
